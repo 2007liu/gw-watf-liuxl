@@ -18,6 +18,6 @@ public class Test {
         int iniflg = 0;
 
         Sceua sceua = new Sceua();
-        BB bb = sceua.sceua(x0, bl, bu, maxn, kstop, pcento, peps, ngs, iseed, iniflg);
+        Sceua.BB bb = sceua.sceua(x0, bl, bu, maxn, kstop, pcento, peps, ngs, iseed, iniflg);
     }
 }
